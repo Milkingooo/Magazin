@@ -1,0 +1,50 @@
+﻿<Window x:Class="Magazin.View.Windows.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Magazin.View.Windows"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="500" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="lblog">
+            <Setter Property="Label.Height" Value="60"/>
+            <Setter Property="Label.Width" Value="200"/>
+            <Setter Property="Label.HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Label.FontSize" Value="30"/>
+            <Setter Property="Label.FontFamily" Value="Calibri"/>
+            <Setter Property="Label.Foreground" Value="Black"/>
+        </Style>
+        <Style x:Key="lbwarn">
+            <Setter Property="Label.Height" Value="40"/>
+            <Setter Property="Label.Margin" Value="0,5,0,0"/>
+            <Setter Property="Label.HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Label.FontSize" Value="20"/>
+            <Setter Property="Label.FontFamily" Value="Calibri"/>
+            <Setter Property="Label.Foreground" Value="red"/>
+        </Style>
+        <Style x:Key="butlog">
+            <Setter Property="Button.Height" Value="40"/>
+            <Setter Property="Button.Width" Value="100"/>
+            <Setter Property="Button.Margin" Value="0,10,0,0"/>
+            <Setter Property="Button.FontSize" Value="20"/>
+            <Setter Property="Button.FontFamily" Value="Calibri"/>
+            <Setter Property="Button.Background" Value="White"/>
+        </Style>
+    </Window.Resources>
+    <Grid Background="BlueViolet">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel>
+            <Label Content="Login" Style="{StaticResource lblog}"/>
+            <TextBox x:Name="log" Height="40" Width="200" Margin="0,0,0,5"/>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="Password" Style="{StaticResource lblog}"/>
+            <TextBox x:Name="pass" Height="40" Width="200"/>
+        </StackPanel>
+            <Label x:Name="warnlb" Style="{StaticResource lbwarn}"/>
+            <Button Style="{StaticResource butlog}" Content="Sign In" Click="Button_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

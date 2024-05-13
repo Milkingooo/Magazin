@@ -1,0 +1,62 @@
+﻿<Window x:Class="Magazin.View.Windows.AddClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Magazin.View.Windows"
+        mc:Ignorable="d"
+        Title="Добавление клиента" Height="450" Width="500" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="lb">
+            <Setter Property="Label.Height" Value="40"/>
+            <Setter Property="Label.Width" Value="100"/>
+            <Setter Property="Label.FontFamily" Value="Calibri"/>
+            <Setter Property="Label.FontWeight" Value="Bold"/>
+            <Setter Property="Label.FontSize" Value="20"/>
+            <Setter Property="Label.HorizontalContentAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="tb">
+            <Setter Property="TextBox.Height" Value="30"/>
+            <Setter Property="TextBox.Width" Value="120"/>
+            
+        </Style>
+    </Window.Resources>
+    <Grid Background="BlueViolet">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" 
+                    HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <StackPanel Margin="0,0,10,0">
+            <Label Style="{StaticResource lb}" Content="Логин"/>
+            <TextBox x:Name="tblog" Style="{StaticResource tb}"/>
+        </StackPanel>
+        <StackPanel>
+            <Label Style="{StaticResource lb}" Content="Пароль"/>
+            <TextBox x:Name="tbpass" Style="{StaticResource tb}"/>
+        </StackPanel>
+        </StackPanel>
+       
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" 
+                    VerticalAlignment="Center" Orientation="Horizontal">
+            <StackPanel Margin="0,0,10,0">
+                <Label Style="{StaticResource lb}" Content="Фамилия"/>
+                <TextBox x:Name="tbsur" Style="{StaticResource tb}"/>
+            </StackPanel>
+            <StackPanel Margin="0,0,10,0">
+                <Label Style="{StaticResource lb}" Content="Имя"/>
+            <TextBox x:Name="tbname" Style="{StaticResource tb}"/>
+            </StackPanel>
+            <StackPanel >
+                <Label Style="{StaticResource lb}" Content="Отчество"/>
+                <TextBox x:Name="tbotc" Style="{StaticResource tb}"/>
+            </StackPanel>
+        </StackPanel>
+
+        <Button Grid.Row="2" Height="50" Width="150" 
+                Content="Добавить" FontSize="20" FontFamily="Calibri" 
+                Background="White" VerticalAlignment="Top" Click="Button_Click"/>
+    </Grid>
+</Window>

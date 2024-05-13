@@ -1,0 +1,18 @@
+﻿<Window x:Class="Magazin.View.Windows.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Magazin.View.Windows"
+        mc:Ignorable="d"
+        Title="HelpWindow" Height="400" Width="600" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid Background="WhiteSmoke">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="130"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="tb" Grid.Column="1" Height="350" 
+                 VerticalAlignment="Bottom" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" />
+        <ListView x:Name="lv"  Height="350" VerticalAlignment="Bottom" SelectionChanged="lv_SelectionChanged"/>
+    </Grid>
+</Window>
