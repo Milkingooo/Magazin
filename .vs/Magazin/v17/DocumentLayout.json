@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|d:\\\u043C\u0434\u043A 01.01\\magazin\\magazin\\viewmodel\\helpwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|solutionrelative:magazin\\viewmodel\\helpwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|d:\\\u043C\u0434\u043A 01.01\\magazin\\magazin\\view\\windows\\helpwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|solutionrelative:magazin\\view\\windows\\helpwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|d:\\\u043C\u0434\u043A 01.01\\magazin\\magazin\\view\\windows\\helpwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|solutionrelative:magazin\\view\\windows\\helpwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|d:\\\u043C\u0434\u043A 01.01\\magazin\\magazin\\viewmodel\\mainmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|solutionrelative:magazin\\viewmodel\\mainmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|d:\\\u043C\u0434\u043A 01.01\\magazin\\magazin\\view\\windows\\mainmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|D:\\\u043C\u0434\u043A 01.01\\Magazin\\magazin\\view\\windows\\mainmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|solutionrelative:magazin\\view\\windows\\mainmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|d:\\\u043C\u0434\u043A 01.01\\magazin\\magazin\\view\\windows\\userinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|solutionrelative:magazin\\view\\windows\\userinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|d:\\\u043C\u0434\u043A 01.01\\magazin\\magazin\\view\\windows\\mainmenuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|solutionrelative:magazin\\view\\windows\\mainmenuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|D:\\\u043C\u0434\u043A 01.01\\Magazin\\magazin\\viewmodel\\mainmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|solutionrelative:magazin\\viewmodel\\mainmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainMenuWindow.xaml",
               "DocumentMoniker": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\View\\Windows\\MainMenuWindow.xaml",
               "RelativeDocumentMoniker": "Magazin\\View\\Windows\\MainMenuWindow.xaml",
@@ -51,13 +39,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainMenuViewModel.cs",
               "DocumentMoniker": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\ViewModel\\MainMenuViewModel.cs",
               "RelativeDocumentMoniker": "Magazin\\ViewModel\\MainMenuViewModel.cs",
               "ToolTip": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\ViewModel\\MainMenuViewModel.cs",
               "RelativeToolTip": "Magazin\\ViewModel\\MainMenuViewModel.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwB8AAAAJAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAqwD0AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T13:50:42.485Z",
               "IsPinned": true,
@@ -65,52 +53,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "View\\Windows\\HelpWindow.xaml.cs",
-              "DocumentMoniker": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\View\\Windows\\HelpWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Magazin\\View\\Windows\\HelpWindow.xaml.cs",
-              "ToolTip": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\View\\Windows\\HelpWindow.xaml.cs",
-              "RelativeToolTip": "Magazin\\View\\Windows\\HelpWindow.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAAB8AAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T14:32:01.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HelpWindowViewModel.cs",
-              "DocumentMoniker": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\ViewModel\\HelpWindowViewModel.cs",
-              "RelativeDocumentMoniker": "Magazin\\ViewModel\\HelpWindowViewModel.cs",
-              "ToolTip": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\ViewModel\\HelpWindowViewModel.cs",
-              "RelativeToolTip": "Magazin\\ViewModel\\HelpWindowViewModel.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAWwBQAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T14:15:15.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HelpWindow.xaml",
-              "DocumentMoniker": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\View\\Windows\\HelpWindow.xaml",
-              "RelativeDocumentMoniker": "Magazin\\View\\Windows\\HelpWindow.xaml",
-              "ToolTip": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\View\\Windows\\HelpWindow.xaml",
-              "RelativeToolTip": "Magazin\\View\\Windows\\HelpWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T14:15:01.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserInfoWindow.xaml",
-              "DocumentMoniker": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\View\\Windows\\UserInfoWindow.xaml",
-              "RelativeDocumentMoniker": "Magazin\\View\\Windows\\UserInfoWindow.xaml",
-              "ToolTip": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\View\\Windows\\UserInfoWindow.xaml",
-              "RelativeToolTip": "Magazin\\View\\Windows\\UserInfoWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T13:59:29.265Z",
+              "Title": "View\\Windows\\MainMenuWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\View\\Windows\\MainMenuWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Magazin\\View\\Windows\\MainMenuWindow.xaml.cs",
+              "ToolTip": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\View\\Windows\\MainMenuWindow.xaml.cs",
+              "RelativeToolTip": "Magazin\\View\\Windows\\MainMenuWindow.xaml.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAIA6wDQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:08:14.934Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

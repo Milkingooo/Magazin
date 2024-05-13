@@ -11,6 +11,7 @@ namespace Magazin.ViewModel
     {
         public void ViewHelp(ListView lv, TextBox tb)
         {
+            tb.Text = null;
             using (StreamReader sr = new StreamReader("Help.txt"))
             {
                 string line;
@@ -32,6 +33,7 @@ namespace Magazin.ViewModel
             lv.ItemsSource = new List<HelpItem>()
             {
                 new HelpItem {Title = "Общее"},
+                new HelpItem {Title = "Интерфейс"},
                 new HelpItem {Title = "Скоро..."}
             };
         }

@@ -28,8 +28,8 @@
         <StackPanel Grid.Row="1" VerticalAlignment="Center" Margin="0,0,5,0">
             <Button Style="{StaticResource butmain}" Content="Инвентарь" Click="Button_Click_1"/>
             <Button Style="{StaticResource butmain}" Content="Клиенты" Click="Button_Click_2"/>
-            <Button Style="{StaticResource butmain}" Content="Сбросить фильтры"/>
-            <ComboBox Height="40"/>
+            <Button Style="{StaticResource butmain}" Content="Сбросить фильтры" Click="Button_Click_5"/>
+            <ComboBox x:Name="cb" Height="40" SelectionChanged="cb_SelectionChanged"/>
         </StackPanel>
         <StackPanel Grid.Row="1" VerticalAlignment="Bottom" Margin="0,0,5,0">
             <Button Style="{StaticResource butmain}" Content="Справка" Click="Button_Click_4"/>

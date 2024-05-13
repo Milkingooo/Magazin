@@ -38,16 +38,19 @@ namespace Magazin.View.Windows
         {
             curuser.Content = UserSingleton.user;
             lv.ItemsSource = null;
+            (DataContext as MainMenuViewModel).FillFilter(cb);
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             (DataContext as MainMenuViewModel).GetInvent(lv);
+            lv.IsEnabled = false;
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             (DataContext as MainMenuViewModel).GetPerson(lv);
+            lv.IsEnabled = true;
         }
 
         private void lv_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -67,6 +70,16 @@ namespace Magazin.View.Windows
         {
             HelpWindow helpWindow = new HelpWindow();
             helpWindow.Show();
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            cb.SelectedItem = null;
+        }
+
+        private void cb_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            (DataContext as MainMenuViewModel).FilterList(lv, cb);
         }
     }
 }

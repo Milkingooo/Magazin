@@ -16,7 +16,7 @@ namespace Magazin.ViewModel
         {
             try
             {
-                MessageBox.Show(SelectedUserSingleton.seluser);
+                //MessageBox.Show(SelectedUserSingleton.seluser);
                 lv.Items.Clear();
                 List<PersonBuy> lists = new List<PersonBuy>();
                 string[] buyer = SelectedUserSingleton.seluser.ToString().Split(' ');
