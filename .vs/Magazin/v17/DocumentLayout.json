@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|D:\\\u043C\u0434\u043A 01.01\\Magazin\\magazin\\view\\windows\\mainmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|d:\\\u043C\u0434\u043A 01.01\\magazin\\magazin\\view\\windows\\mainmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|solutionrelative:magazin\\view\\windows\\mainmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|d:\\\u043C\u0434\u043A 01.01\\magazin\\magazin\\view\\windows\\mainmenuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|solutionrelative:magazin\\view\\windows\\mainmenuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|d:\\\u043C\u0434\u043A 01.01\\magazin\\magazin\\viewmodel\\itemaddwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|solutionrelative:magazin\\viewmodel\\itemaddwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEF7D960-9E35-4D69-BF9D-1A73AF2D2F55}|Magazin\\Magazin.csproj|D:\\\u043C\u0434\u043A 01.01\\Magazin\\magazin\\viewmodel\\mainmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Magazin\\ViewModel\\MainMenuViewModel.cs",
               "ToolTip": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\ViewModel\\MainMenuViewModel.cs",
               "RelativeToolTip": "Magazin\\ViewModel\\MainMenuViewModel.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAqwD0AAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T13:50:42.485Z",
               "IsPinned": true,
@@ -54,15 +54,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "View\\Windows\\MainMenuWindow.xaml.cs",
-              "DocumentMoniker": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\View\\Windows\\MainMenuWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Magazin\\View\\Windows\\MainMenuWindow.xaml.cs",
-              "ToolTip": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\View\\Windows\\MainMenuWindow.xaml.cs",
-              "RelativeToolTip": "Magazin\\View\\Windows\\MainMenuWindow.xaml.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAIA6wDQAAAAgAAAA",
+              "Title": "ItemAddWindowViewModel.cs",
+              "DocumentMoniker": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\ViewModel\\ItemAddWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Magazin\\ViewModel\\ItemAddWindowViewModel.cs",
+              "ToolTip": "D:\\\u043C\u0434\u043A 01.01\\Magazin\\Magazin\\ViewModel\\ItemAddWindowViewModel.cs",
+              "RelativeToolTip": "Magazin\\ViewModel\\ItemAddWindowViewModel.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAEMAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T19:08:14.934Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-05-14T13:48:25.078Z",
               "EditorCaption": ""
             }
           ]

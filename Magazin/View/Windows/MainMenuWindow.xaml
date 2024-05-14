@@ -35,8 +35,11 @@
             <Button Style="{StaticResource butmain}" Content="Справка" Click="Button_Click_4"/>
             <Button Style="{StaticResource butmain}" Content="Выход" Click="Button_Click"/>
         </StackPanel>
-        <ListView x:Name="lv" Grid.Row="1" Grid.Column="1" Background="Transparent" SelectionChanged="lv_SelectionChanged" />
-        <Button Grid.Column="1" Style="{StaticResource butmain}" HorizontalAlignment="Left" Content="Добавить клиента" Click="Button_Click_3"/>
+        <ListView x:Name="lv" Grid.Row="1" Grid.Column="1" Background="Transparent" SelectionChanged="lv_SelectionChanged"/>
+        <ListView x:Name="lv1" Grid.Row="1" Grid.Column="1" Background="Transparent" SelectionChanged="lv1_SelectionChanged"/>
+        <Button Grid.Column="1" Style="{StaticResource butmain}" HorizontalAlignment="Left" 
+                Content="Добавить клиента" Click="Button_Click_3" Visibility="Hidden"
+                x:Name="butadd"/>
         <Label x:Name="curuser" FontSize="20" Grid.Column="1" Width="350" HorizontalAlignment="Right" HorizontalContentAlignment="Center" />
     </Grid>
 </Window>

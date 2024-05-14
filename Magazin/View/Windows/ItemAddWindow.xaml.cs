@@ -16,19 +16,24 @@ using System.Windows.Shapes;
 namespace Magazin.View.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для AddClientWindow.xaml
+    /// Логика взаимодействия для ItemAddWindow.xaml
     /// </summary>
-    public partial class AddClientWindow : Window
+    public partial class ItemAddWindow : Window
     {
-        public AddClientWindow()
+        public ItemAddWindow()
         {
             InitializeComponent();
-            DataContext = new AddClientWindowViewModel();
+            DataContext = new ItemAddWindowViewModel();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            (DataContext as ItemAddWindowViewModel).GetItemInfo(nameitem, access, tb, cb);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            (DataContext as AddClientWindowViewModel).AddUser(tbsur, tbname, tbotc);
+            (DataContext as ItemAddWindowViewModel).GiveItem(tb, nameitem.Content.ToString(), cb);
         }
     }
 }

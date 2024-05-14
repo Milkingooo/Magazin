@@ -21,3 +21,5 @@ D:\мдк 01.01\Magazin\Magazin\obj\Debug\View\Windows\AddClientWindow.g.cs
 D:\мдк 01.01\Magazin\Magazin\obj\Debug\View\Windows\AddClientWindow.baml
 D:\мдк 01.01\Magazin\Magazin\obj\Debug\View\Windows\HelpWindow.g.cs
 D:\мдк 01.01\Magazin\Magazin\obj\Debug\View\Windows\HelpWindow.baml
+D:\мдк 01.01\Magazin\Magazin\obj\Debug\View\Windows\ItemAddWindow.g.cs
+D:\мдк 01.01\Magazin\Magazin\obj\Debug\View\Windows\ItemAddWindow.baml

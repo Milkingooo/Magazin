@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Windows;
 using System.Windows.Controls;
 
 namespace Magazin.ViewModel
@@ -31,41 +30,46 @@ namespace Magazin.ViewModel
                 while (!sr.EndOfStream)
                 {
                     string[] strings = sr.ReadLine().Split(';');
-                    listView.Items.Add(new Person { Name = strings[2], Surname = strings[3], Otch = strings[4] });
+                    listView.Items.Add(new Person { Name = strings[0], Surname = strings[1], Otch = strings[2] });
                 }
             }
         }
         public void FillFilter(ComboBox cb)
         {
+            HashSet<string> filter = new HashSet<string>();
             using (StreamReader sr = new StreamReader("Products.txt"))
             {
                 while (!sr.EndOfStream)
                 {
                     string[] strings = sr.ReadLine().Split(';');
-                    cb.Items.Add(strings[2]);
+                    filter.Add(strings[2]);
+
                 }
+            }
+            foreach (var item in filter)
+            {
+                cb.Items.Add(item);
             }
         }
         public void FilterList(ListView lv, ComboBox cb)
         {
             lv.Items.Clear();
-            //for (int i = 0; i < lv.Items.Count + 1; i++)
-            //{
-            //    if (lv.Items[i] != cb.SelectedItem)
-            //    {
-            //        lv.Items.Remove(lv.Items[i]);
-            //    }
-            //}
+            if (cb.SelectedItem == null)
+            {
+                GetInvent(lv);
+                return;
+            }
             using (StreamReader sr = new StreamReader("Products.txt"))
             {
                 while (!sr.EndOfStream)
                 {
                     string[] strings = sr.ReadLine().Split(';');
                     if (strings[2] == cb.SelectedItem.ToString())
-                    lv.Items.Add(new Item { Name = strings[0], Count = Convert.ToInt32(strings[1]), Type = strings[2] });
-
+                        lv.Items.Add(new Item { Name = strings[0], Count = Convert.ToInt32(strings[1]), Type = strings[2] });
+                    
                 }
             }
+
             lv.Items.Refresh();
 
         }

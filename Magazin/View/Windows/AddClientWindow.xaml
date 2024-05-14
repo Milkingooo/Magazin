@@ -22,41 +22,24 @@
         </Style>
     </Window.Resources>
     <Grid Background="BlueViolet">
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal" 
-                    HorizontalAlignment="Center" VerticalAlignment="Bottom">
-            <StackPanel Margin="0,0,10,0">
-            <Label Style="{StaticResource lb}" Content="Логин"/>
-            <TextBox x:Name="tblog" Style="{StaticResource tb}"/>
-        </StackPanel>
-        <StackPanel>
-            <Label Style="{StaticResource lb}" Content="Пароль"/>
-            <TextBox x:Name="tbpass" Style="{StaticResource tb}"/>
-        </StackPanel>
-        </StackPanel>
-       
         <StackPanel Grid.Row="1" HorizontalAlignment="Center" 
-                    VerticalAlignment="Center" Orientation="Horizontal">
-            <StackPanel Margin="0,0,10,0">
+                    VerticalAlignment="Center" Orientation="Vertical">
+            <StackPanel>
                 <Label Style="{StaticResource lb}" Content="Фамилия"/>
                 <TextBox x:Name="tbsur" Style="{StaticResource tb}"/>
             </StackPanel>
-            <StackPanel Margin="0,0,10,0">
+            <StackPanel Margin="0,10,0,0" >
                 <Label Style="{StaticResource lb}" Content="Имя"/>
-            <TextBox x:Name="tbname" Style="{StaticResource tb}"/>
+                <TextBox x:Name="tbname" Style="{StaticResource tb}"/>
             </StackPanel>
-            <StackPanel >
+            <StackPanel Margin="0,10,0,0" >
                 <Label Style="{StaticResource lb}" Content="Отчество"/>
                 <TextBox x:Name="tbotc" Style="{StaticResource tb}"/>
             </StackPanel>
-        </StackPanel>
-
-        <Button Grid.Row="2" Height="50" Width="150" 
+        <Button  Height="50" Width="150" 
                 Content="Добавить" FontSize="20" FontFamily="Calibri" 
-                Background="White" VerticalAlignment="Top" Click="Button_Click"/>
+                Background="White"  Click="Button_Click"
+                 Margin="0,10,0,0"/>
+        </StackPanel>
     </Grid>
 </Window>

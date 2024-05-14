@@ -38,26 +38,35 @@ namespace Magazin.View.Windows
         {
             curuser.Content = UserSingleton.user;
             lv.ItemsSource = null;
+            lv1.ItemsSource = null;
             (DataContext as MainMenuViewModel).FillFilter(cb);
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            (DataContext as MainMenuViewModel).GetInvent(lv);
-            lv.IsEnabled = false;
+            lv.Visibility = Visibility.Hidden;
+            lv1.Visibility = Visibility.Visible;
+            (DataContext as MainMenuViewModel).GetInvent(lv1);
+            butadd.Visibility = Visibility.Hidden;
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            lv.Visibility = Visibility.Visible;
+            lv1.Visibility = Visibility.Hidden;
             (DataContext as MainMenuViewModel).GetPerson(lv);
             lv.IsEnabled = true;
+            butadd.Visibility = Visibility.Visible;
         }
 
         private void lv_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            SelectedUserSingleton.seluser = lv.SelectedItem.ToString();
-            UserInfoWindow userInfoWindow = new UserInfoWindow();
-            userInfoWindow.Show();
+            if (lv.SelectedItem != null)
+            {
+                SelectedUserSingleton.seluser = lv.SelectedItem.ToString();
+                UserInfoWindow userInfoWindow = new UserInfoWindow();
+                userInfoWindow.Show();
+            }
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
@@ -74,12 +83,22 @@ namespace Magazin.View.Windows
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            cb.SelectedItem = null;
+            cb.SelectedIndex = -1;
         }
 
         private void cb_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            (DataContext as MainMenuViewModel).FilterList(lv, cb);
+            (DataContext as MainMenuViewModel).FilterList(lv1, cb);
+        }
+
+        private void lv1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (lv1.SelectedItem != null)
+            {
+                SelectedItemSingleton.selitem = lv1.SelectedItem.ToString();
+                ItemAddWindow itemAddWindow = new ItemAddWindow();
+                itemAddWindow.Show();
+            }
         }
     }
 }

@@ -31,7 +31,7 @@ namespace Magazin.View.Windows
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             (DataContext as LoginWindowViewModel).CheckData(log, pass);
-            if((DataContext as LoginWindowViewModel).GetClient("Users.txt", log, pass, warnlb)) Close();
+            if((DataContext as LoginWindowViewModel).GetClient("AdminList.txt", log, pass, warnlb)) Close();
         }
     }
 }

@@ -27,7 +27,7 @@ namespace Magazin.ViewModel
                 }
                 if (!found)
                 {
-                    warn.Content = "Invalid username or password";
+                    warn.Content = "Неверный логин или пароль!";
                     return false;
                 }
             }

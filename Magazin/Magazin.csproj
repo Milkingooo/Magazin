@@ -60,10 +60,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Model\SelectedHelpSingleton.cs" />
+    <Compile Include="Model\SelectedItemSingleton.cs" />
     <Compile Include="Model\SelectedUserSingleton.cs" />
     <Compile Include="Model\UserSingleton.cs" />
     <Compile Include="ViewModel\AddClientWindowViewModel.cs" />
     <Compile Include="ViewModel\HelpWindowViewModel.cs" />
+    <Compile Include="ViewModel\ItemAddWindowViewModel.cs" />
     <Compile Include="ViewModel\LoginWindowViewModel.cs" />
     <Compile Include="ViewModel\MainMenuViewModel.cs" />
     <Compile Include="ViewModel\UserInfoWindowViewModel.cs" />
@@ -72,6 +74,9 @@
     </Compile>
     <Compile Include="View\Windows\HelpWindow.xaml.cs">
       <DependentUpon>HelpWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Windows\ItemAddWindow.xaml.cs">
+      <DependentUpon>ItemAddWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Windows\LoginWindow.xaml.cs">
       <DependentUpon>LoginWindow.xaml</DependentUpon>
@@ -115,6 +120,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Windows\HelpWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Windows\ItemAddWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

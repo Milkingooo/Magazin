@@ -11,16 +11,14 @@ namespace Magazin.ViewModel
 {
     internal class AddClientWindowViewModel
     {
-       public void AddUser(TextBox log, TextBox pass, TextBox surn, TextBox name, TextBox otch)
+       public void AddUser(TextBox surn, TextBox name, TextBox otch)
         {
-            if (log.Text != "" && pass.Text != "" && name.Text != "" && surn.Text != "" && otch.Text != "")
+            if (name.Text != "" && surn.Text != "" && otch.Text != "")
             {
                 using (StreamWriter stream = new StreamWriter("Users.txt", true))
                 {
-                    stream.WriteLine(log.Text + ";" + pass.Text + ";" + surn.Text + ";" + name.Text + ";" + otch.Text);
+                    stream.WriteLine(surn.Text + ";" + name.Text + ";" + otch.Text);
                     MessageBox.Show("Пользователь успешно добавлен!");
-                    log.Text = "";
-                    pass.Text = "";
                     name.Text = "";
                     surn.Text = "";
                     otch.Text = "";
