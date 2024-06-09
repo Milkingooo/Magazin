@@ -12,6 +12,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Label x:Name="curuser" Width="450" HorizontalAlignment="Left" FontSize="20" FontFamily="Calibry"/>
+        <Button x:Name="delbut" Content="Удалить пользователя" Width="150" HorizontalAlignment="Right" Click="delbut_Click"/>
         <ListView Grid.Row="1" x:Name="lv" Background="Transparent"/>
     </Grid>
 </Window>

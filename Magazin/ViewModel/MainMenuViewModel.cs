@@ -30,7 +30,7 @@ namespace Magazin.ViewModel
                 while (!sr.EndOfStream)
                 {
                     string[] strings = sr.ReadLine().Split(';');
-                    listView.Items.Add(new Person { Name = strings[0], Surname = strings[1], Otch = strings[2] });
+                        listView.Items.Add(new Person { Name = strings[0], Surname = strings[1], Otch = strings[2] });
                 }
             }
         }
@@ -71,7 +71,6 @@ namespace Magazin.ViewModel
             }
 
             lv.Items.Refresh();
-
         }
     }
     public class Item

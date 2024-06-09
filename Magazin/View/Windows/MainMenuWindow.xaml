@@ -27,7 +27,7 @@
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Row="1" VerticalAlignment="Center" Margin="0,0,5,0">
             <Button Style="{StaticResource butmain}" Content="Инвентарь" Click="Button_Click_1"/>
-            <Button Style="{StaticResource butmain}" Content="Клиенты" Click="Button_Click_2"/>
+            <Button Style="{StaticResource butmain}" Content="Клиенты" Click="Button_Click_2" ToolTip="Добавление клиента"/>
             <Button Style="{StaticResource butmain}" Content="Сбросить фильтры" Click="Button_Click_5"/>
             <ComboBox x:Name="cb" Height="40" SelectionChanged="cb_SelectionChanged"/>
         </StackPanel>
@@ -37,9 +37,11 @@
         </StackPanel>
         <ListView x:Name="lv" Grid.Row="1" Grid.Column="1" Background="Transparent" SelectionChanged="lv_SelectionChanged"/>
         <ListView x:Name="lv1" Grid.Row="1" Grid.Column="1" Background="Transparent" SelectionChanged="lv1_SelectionChanged"/>
-        <Button Grid.Column="1" Style="{StaticResource butmain}" HorizontalAlignment="Left" 
+        <StackPanel Grid.Column="1" Orientation="Horizontal" >
+            <Button Grid.Column="1" Style="{StaticResource butmain}" HorizontalAlignment="Left" 
                 Content="Добавить клиента" Click="Button_Click_3" Visibility="Hidden"
                 x:Name="butadd"/>
+        </StackPanel>
         <Label x:Name="curuser" FontSize="20" Grid.Column="1" Width="350" HorizontalAlignment="Right" HorizontalContentAlignment="Center" />
     </Grid>
 </Window>

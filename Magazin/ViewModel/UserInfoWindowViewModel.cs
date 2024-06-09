@@ -35,6 +35,35 @@ namespace Magazin.ViewModel
             }
             catch (Exception e) { MessageBox.Show(e.Message); }
         }
+
+        public void DelUser(string user)
+        {
+            List<string> list = new List<string>();
+            user = user.Replace("  ", " ");
+            user = user.Replace(' ', ';');
+            MessageBox.Show(user);
+            using (StreamReader sr = new StreamReader("Users.txt"))
+            {
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    if (!line.Contains(user))
+                    {
+                        list.Add(line);
+                    }
+                }
+            }
+
+            using (StreamWriter sw = new StreamWriter("Users.txt"))
+            {
+                foreach (string item in list)
+                {
+                    sw.WriteLine(item);
+                }
+            }
+
+            MessageBox.Show("Пользователь удалён!");
+        }
     }
     public class PersonBuy
     {

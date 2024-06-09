@@ -34,5 +34,11 @@ namespace Magazin.View.Windows
             (DataContext as UserInfoWindowViewModel).GetUserInfo(lv);
 
         }
+
+        private void delbut_Click(object sender, RoutedEventArgs e)
+        {
+            (DataContext as UserInfoWindowViewModel).DelUser(SelectedUserSingleton.seluser.Remove(0, 5));
+            Close();
+        }
     }
 }
